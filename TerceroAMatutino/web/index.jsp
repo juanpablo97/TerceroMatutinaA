@@ -41,7 +41,16 @@
                 border-radius:60px;
                 font-size: 17px;
                 text-align: center;
-                background: #EEEDEB;
+                height: 40px;
+                width: 40px;
+                background-color: #2daae2;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .dot2 {
+                height: 40px;
+                width: 40px;
+               background: #EEEDEB;
             }
             .dot1 {
                 height: 40px;
