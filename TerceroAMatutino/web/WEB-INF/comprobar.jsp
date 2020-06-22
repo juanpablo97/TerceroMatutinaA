@@ -1,4 +1,4 @@
-<%@page import="Conexion.conexion"%>
+<%@page import="Conexion.conexion, java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%

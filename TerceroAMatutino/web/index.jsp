@@ -39,10 +39,10 @@
 
             .prueba{
                 border-radius:60px;
-                font-size: 17px;
+                font-size: 20px;
                 text-align: center;
-                height: 40px;
-                width: 40px;
+                height: 60px;
+                width: 300px;
                 background-color: #2daae2;
                 border-radius: 50%;
                 display: inline-block;
@@ -86,37 +86,27 @@
         </style>
     </head>
     <body  >
-        <div class="container " style="background:; margin-top: 10%;height: 650px"> 
+        <div class="container " style="background:100px ; margin-top: 10%;height: 650px"> 
             <div class="row justify-content-md-center" style="height:650px; max-height: 550px; min-height: 550px" >
                 <div class="col-lg-5 col-md-4 col-sm col-sm-6 " id="imagen" >
                 </div>
                 <div class="col-lg-5 col-md-4 col-sm col-sm-6 " style="background:white">
-                    <h2 style=" font-family: New Century Schoolbook, TeX Gyre Schola, serif;font-weight: 600; margin-top: 20%" align="center" >Log In</h2>
-                    <p class="text-muted" align="center" style="font-family: New Century Schoolbook, TeX Gyre Schola, serif;  font-size: 20px;" >to your account</p>
+                    <h2 style=" font-family: New Century Schoolbook, TeX Gyre Schola, serif;font-weight: 300; margin-top: 20%" align="center" >Log In</h2>
+                    <p class="text-muted" align="center" style="font-family: New Century Schoolbook, TeX Gyre Schola, serif;  font-size: 20px;" >Ingrese sus credenciales</p>
                     <form class="col-10 " style=" margin-left: 10%" >
 
-                        <div class="form-group" style="heigth:100px" >
-                            <input type="text" class="form-control form-control-lg prueba" id="usuario"  placeholder="Username" >
+                        <div class="form-group"  >
+                            <input type="text" class="form-control form-control-lg prueba" name="txtuser" id="usuario"  placeholder="Usuario" >
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control form-control-lg prueba" id="pass" placeholder="Password" >
+                            <input type="number" class="form-control form-control-lg prueba" name="txtpass" id="pass" placeholder="Contraseña" 
+                                   value=""  required="">
                         </div>
 
-                        <button type="submit" class="btn btn-warning" style="color:#fff;border-radius:60px; width: 100%; font-size: 17px"  >Log In</button>
+                        <button href="index.html" type="submit" class="btn btn-warning" style="color:#fff;border-radius:60px; width: 100%; font-size: 17px"  >Ingresar</button>
 
                     </form>
-                    <div class="row mt-3 justify-content-md-center"   >
-                        <div class="col-1" >
-                            <a href="#" title="">
-                                <span class="dot1"><ion-icon name="logo-twitter" class="text-white mt-2" style="padding-left: 10px; font-size: 20px;padding-top: 2px"></ion-icon></span>
-                        </div>
-                        <div class="col-1 ml-1" >
-                            <a href="#" title="">
-                                <span class="dot2"><ion-icon name="logo-google" class="text-white mt-2" style="padding-left: 10px; font-size: 20px;padding-top: 2px"></ion-icon></span>
-                        </div>
-
-                        </a>
-                    </div>
+                    
 
                 </div>
             </div>

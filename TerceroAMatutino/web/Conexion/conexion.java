@@ -6,7 +6,7 @@ public class conexion {
     public static Connection getConexion(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            cn =DriverManager.getConnection("jdbc:mysql://localhost/TerceroAMatutina","root","");
+            cn =DriverManager.getConnection("jdbc:mysql://localhost/terceromatutina","root","");
             
         } catch (Exception e) {
              e.getMessage();
