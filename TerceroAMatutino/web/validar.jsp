@@ -1,10 +1,8 @@
-<%@page import="Conexion.conexion, java.sql.*"%>
+<%@page import="Modelo.Cl_Conexion, java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-
-
 <%
-    conexion con = new conexion();
+    Cl_Conexion con = new Cl_Conexion();
    String user= request.getParameter("txtuser");
    String pass= request.getParameter("txtpass");
    String sql="select *from usuarios where USUARIO='"+user+"'and PASSWORD='"+pass+"'";
@@ -26,19 +24,5 @@
       
     }
     
-       
-    
    
-   
-              
-               
-               
-       
-    
-    
-     
-   
-  
-  
-
 %>

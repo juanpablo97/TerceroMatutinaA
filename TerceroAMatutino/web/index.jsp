@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 19/06/2020, 11:38:18
-    Author     : Israel
---%>
+<%@page  import="java.sql.*" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -93,7 +89,7 @@
                 <div class="col-lg-5 col-md-4 col-sm col-sm-6 " style="background:white">
                     <h2 style=" font-family: New Century Schoolbook, TeX Gyre Schola, serif;font-weight: 300; margin-top: 20%" align="center" >Log In</h2>
                     <p class="text-muted" align="center" style="font-family: New Century Schoolbook, TeX Gyre Schola, serif;  font-size: 20px;" >Ingrese sus credenciales</p>
-                    <form class="col-10 " style=" margin-left: 10%" >
+                    <form class="col-10 " style=" margin-left: 10%"  action="validar.jsp" method="POST" >
 
                         <div class="form-group"  >
                             <input type="text" class="form-control form-control-lg prueba" name="txtuser" id="usuario"  placeholder="Usuario" >
@@ -103,7 +99,7 @@
                                    value=""  required="">
                         </div>
 
-                        <button href="index.html" type="submit" class="btn btn-warning" style="color:#fff;border-radius:60px; width: 100%; font-size: 17px"  >Ingresar</button>
+                        <button href="index.html" type="submit" class="btn btn-primary" style="color:#fff;border-radius:60px; width: 100%; font-size: 17px"  >Ingresar</button>
 
                     </form>
                     
